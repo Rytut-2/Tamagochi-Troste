@@ -155,10 +155,10 @@ void loop() {
       client.println("        texto.innerHTML = 'ESTADO: FELIZ<br>¡Humedad perfecta! Todo bien.';");
       client.println("      } else if (datos.humedad > 70 && datos.humedad <= 85) {");
       client.println("        avatar.innerHTML = '🥴';");
-      client.println("        texto.innerHTML = 'ESTADO: ARRIBA<br>Mucha agua por aquí abajo...';");
+      client.println("        texto.innerHTML = 'ESTADO: SATURADA<br>Mucha agua por aquí abajo...';");
       client.println("      } else {");
       client.println("        avatar.innerHTML = '🤢';");
-      client.println("        texto.innerHTML = 'ESTADO: AHOGADO<br>¡Basta de agua! Me pudro.';");
+      client.println("        texto.innerHTML = 'ESTADO: AHOGADA<br>¡Basta de agua! Me pudro.';");
       client.println("      }");
       
       client.println("      if (datos.temp > 38) {");
